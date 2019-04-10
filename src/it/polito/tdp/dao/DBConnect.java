@@ -5,8 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnect {
-
-	static private final String jdbcUrl = "jdbc:mysql://localhost/esamitriennale?user=root&password=root";
+	static private final String jdbcUrl = "jdbc:mysql://localhost/esamitriennale?user=root&password=a123$456&serverTimezone=Europe/Rome";
 
 	public static Connection getConnection() {
 
